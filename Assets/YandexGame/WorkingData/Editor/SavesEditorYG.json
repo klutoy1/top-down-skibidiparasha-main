@@ -1,0 +1,16 @@
+{
+    "idSave": 3,
+    "isFirstSession": false,
+    "language": "ru",
+    "promptDone": false,
+    "money": 1,
+    "newPlayerName": "Hello!",
+    "openLevels": [
+        false,
+        true,
+        false
+    ],
+    "easyrecords": 8,
+    "normalrecords": 1,
+    "hardrecords": 4
+}
