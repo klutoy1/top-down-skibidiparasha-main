@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -699,6 +698,7 @@ SpriteRenderer:
   m_RayTraceProcedural: 0
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1001,6 +1001,7 @@ SpriteRenderer:
   m_RayTraceProcedural: 0
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3170,11 +3171,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1705976709}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 844.9, y: 53.1}
-  m_SizeDelta: {x: 137.3191, y: 115.49}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -147.44043, y: 53.1}
+  m_SizeDelta: {x: 137.31909, y: 115.49}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &513467469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3347,7 +3348,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.304757, y: 7.3043423, z: -10}
+  m_LocalPosition: {x: 11.185437, y: 7.333342, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3649,6 +3650,7 @@ SpriteRenderer:
   m_RayTraceProcedural: 0
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4045,11 +4047,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1705976709}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 838, y: -81}
-  m_SizeDelta: {x: 72.3842, y: 65.857}
-  m_Pivot: {x: 0.50000006, y: 0.5000001}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -147, y: -81}
+  m_SizeDelta: {x: 72.384155, y: 65.857}
+  m_Pivot: {x: 1, y: 0.5000001}
 --- !u!114 &854786304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4314,11 +4316,11 @@ RectTransform:
   - {fileID: 240491360}
   m_Father: {fileID: 1705976709}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -735, y: 2.2971191}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 122.2, y: -0.00000023841858}
   m_SizeDelta: {x: 156.6626, y: 45.4058}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &864160589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4898,7 +4900,7 @@ Transform:
   m_GameObject: {fileID: 975431866}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.304757, y: 7.3043423, z: -10}
+  m_LocalPosition: {x: 11.185437, y: 7.333342, z: -10}
   m_LocalScale: {x: 0.96464, y: 0.96464, z: 0.96464}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5327,6 +5329,7 @@ SpriteRenderer:
   m_RayTraceProcedural: 0
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5573,6 +5576,7 @@ SpriteRenderer:
   m_RayTraceProcedural: 0
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8051,6 +8055,7 @@ SpriteRenderer:
   m_RayTraceProcedural: 0
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8352,6 +8357,7 @@ SpriteRenderer:
   m_RayTraceProcedural: 0
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8970,6 +8976,7 @@ SpriteRenderer:
   m_RayTraceProcedural: 0
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9122,11 +9129,11 @@ RectTransform:
   - {fileID: 1652224937}
   m_Father: {fileID: 1705976709}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -760, y: -81.000015}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 69.5, y: -73.7}
   m_SizeDelta: {x: 160, y: 35.406}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &2016202882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9630,17 +9637,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 4528591612870670117, guid: fbf573d30a081d24995f619cf281a2ae, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5524921729076927631, guid: 4f9fb8717cba945468dd3d10968fb42c, type: 3}
+    - target: {fileID: 4528591612870670117, guid: fbf573d30a081d24995f619cf281a2ae, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5614274063518319180, guid: fbf573d30a081d24995f619cf281a2ae, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5614274063518319180, guid: fbf573d30a081d24995f619cf281a2ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.609999
+      value: 11.558
       objectReference: {fileID: 0}
     - target: {fileID: 5614274063518319180, guid: fbf573d30a081d24995f619cf281a2ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.59
+      value: 7.619
       objectReference: {fileID: 0}
     - target: {fileID: 5614274063518319180, guid: fbf573d30a081d24995f619cf281a2ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9673,6 +9688,26 @@ PrefabInstance:
     - target: {fileID: 5614274063518319180, guid: fbf573d30a081d24995f619cf281a2ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6802530169444042628, guid: fbf573d30a081d24995f619cf281a2ae, type: 3}
+      propertyPath: m_Size.y
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 6802530169444042628, guid: fbf573d30a081d24995f619cf281a2ae, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.04380685
+      objectReference: {fileID: 0}
+    - target: {fileID: 6802530169444042628, guid: fbf573d30a081d24995f619cf281a2ae, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.20124295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357325103470855030, guid: fbf573d30a081d24995f619cf281a2ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.213
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357325103470855030, guid: fbf573d30a081d24995f619cf281a2ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.324
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -28,7 +28,7 @@ public abstract class Weapon : MonoBehaviour
 
     protected virtual void PlaySound()
     {
-        audioSourceShoot.Play();
+        audioSourceShoot.PlayOneShot(audioSourceShoot.clip);
     }
 
     protected void StopSoundShoot()
