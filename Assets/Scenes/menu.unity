@@ -214,7 +214,6 @@ GameObject:
   - component: {fileID: 64744849}
   - component: {fileID: 64744851}
   - component: {fileID: 64744850}
-  - component: {fileID: 64744852}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -340,59 +339,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64744848}
   m_CullTransparentMesh: 1
---- !u!114 &64744852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 64744848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 64744850}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: "\u0432\u044B\u0431\u0440\u0430\u0442\u044C \u0440\u0435\u0436\u0438\u043C
-    \u0438\u0433\u0440\u044B"
-  en: select gamemode
-  tr: "oyun modunu se\xE7"
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 0/19 completed
-  componentTextField: 1
-  countLang: 0
 --- !u!1 &92946047
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,7 +486,6 @@ GameObject:
   - component: {fileID: 148764551}
   - component: {fileID: 148764553}
   - component: {fileID: 148764552}
-  - component: {fileID: 148764554}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -666,58 +611,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148764550}
   m_CullTransparentMesh: 1
---- !u!114 &148764554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 148764550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 148764552}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: "\u043B\u0435\u0433\u043A\u0438\u0439"
-  en: easy
-  tr: kolay
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 0/19 completed
-  componentTextField: 1
-  countLang: 0
 --- !u!1 &204037842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,7 +1091,6 @@ GameObject:
   - component: {fileID: 625256791}
   - component: {fileID: 625256794}
   - component: {fileID: 625256793}
-  - component: {fileID: 625256792}
   m_Layer: 5
   m_Name: 'easyrecord]'
   m_TagString: Untagged
@@ -1225,58 +1117,6 @@ RectTransform:
   m_AnchoredPosition: {x: -142.22198, y: -5.7618103}
   m_SizeDelta: {x: 94.2083, y: 79.7263}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &625256792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 625256790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 625256793}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: "\u0440\u0435\u043A\u043E\u0440\u0434 \u0432\u043E\u043B\u043D:"
-  en: 'record waves:'
-  tr: "dalgalar\u0131 kaydedin:"
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 3/3 completed
-  componentTextField: 1
-  countLang: 3
 --- !u!114 &625256793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1973,7 +1813,6 @@ GameObject:
   - component: {fileID: 1144171654}
   - component: {fileID: 1144171657}
   - component: {fileID: 1144171656}
-  - component: {fileID: 1144171655}
   m_Layer: 5
   m_Name: 'normal record '
   m_TagString: Untagged
@@ -2000,58 +1839,6 @@ RectTransform:
   m_AnchoredPosition: {x: -139.87662, y: 1.9000015}
   m_SizeDelta: {x: 96.8992, y: 81.323}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1144171655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1144171653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1144171656}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: "\u0440\u0435\u043A\u043E\u0440\u0434 \u0432\u043E\u043B\u043D:"
-  en: 'record waves:'
-  tr: "dalgalar\u0131 kaydedin:"
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 3/3 completed
-  componentTextField: 1
-  countLang: 3
 --- !u!114 &1144171656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2162,7 +1949,6 @@ GameObject:
   - component: {fileID: 1204857807}
   - component: {fileID: 1204857809}
   - component: {fileID: 1204857808}
-  - component: {fileID: 1204857810}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2288,58 +2074,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1204857806}
   m_CullTransparentMesh: 1
---- !u!114 &1204857810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1204857806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1204857808}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: "\u0441\u0440\u0435\u0434\u043D\u0438\u0439"
-  en: medium
-  tr: orta
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 0/19 completed
-  componentTextField: 1
-  countLang: 0
 --- !u!1 &1700341470
 GameObject:
   m_ObjectHideFlags: 0
@@ -2454,7 +2188,6 @@ GameObject:
   - component: {fileID: 1801180850}
   - component: {fileID: 1801180853}
   - component: {fileID: 1801180852}
-  - component: {fileID: 1801180851}
   m_Layer: 5
   m_Name: hard record
   m_TagString: Untagged
@@ -2481,58 +2214,6 @@ RectTransform:
   m_AnchoredPosition: {x: -139.88, y: 7.6795}
   m_SizeDelta: {x: 96.899, y: 83.1111}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1801180851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801180849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1801180852}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: "\u0440\u0435\u043A\u043E\u0440\u0434 \u0432\u043E\u043B\u043D:"
-  en: 'record waves:'
-  tr: "dalgalar\u0131 kaydedin:"
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 3/3 completed
-  componentTextField: 1
-  countLang: 3
 --- !u!114 &1801180852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2643,7 +2324,6 @@ GameObject:
   - component: {fileID: 1811396712}
   - component: {fileID: 1811396714}
   - component: {fileID: 1811396713}
-  - component: {fileID: 1811396715}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2769,59 +2449,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811396711}
   m_CullTransparentMesh: 1
---- !u!114 &1811396715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1811396711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1811396713}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: "\u0421\u043A\u0438\u0431\u0438\u0434\u0438 \u0442\u0443\u0430\u043B\u0435\u0442
-    \u0448\u0443\u0442\u0435\u0440. \u0412\u044B\u0436\u0438\u0432\u0430\u043D\u0438\u0435"
-  en: Skibidi toilet shooter. Survival
-  tr: "Skibidi toilet tetik\xE7isi. Hayatta kalma"
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 0/19 completed
-  componentTextField: 1
-  countLang: 0
 --- !u!1 &1851769090
 GameObject:
   m_ObjectHideFlags: 0
@@ -2925,7 +2552,6 @@ GameObject:
   - component: {fileID: 1983165349}
   - component: {fileID: 1983165351}
   - component: {fileID: 1983165350}
-  - component: {fileID: 1983165352}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -3051,58 +2677,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983165348}
   m_CullTransparentMesh: 1
---- !u!114 &1983165352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983165348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1983165350}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: "\u0436\u0435\u0441\u0442\u043A\u0438\u0439"
-  en: hard
-  tr: zor
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 0/19 completed
-  componentTextField: 1
-  countLang: 0
 --- !u!4 &3508005013797766489
 Transform:
   m_ObjectHideFlags: 0
@@ -3224,8 +2798,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 516a4f45487bdb3459b1c43d67dc4dbe, type: 3}
-  m_Resource: {fileID: 8300000, guid: 516a4f45487bdb3459b1c43d67dc4dbe, type: 3}
+  m_audioClip: {fileID: 8300000, guid: be301b137921eec4786d1fa8b884e738, type: 3}
+  m_Resource: {fileID: 8300000, guid: be301b137921eec4786d1fa8b884e738, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.014
   m_Pitch: 1
